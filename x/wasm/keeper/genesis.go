@@ -85,6 +85,7 @@ func ExportGenesis(ctx sdk.Context, keeper *Keeper) *types.GenesisState {
 	genState.Params = keeper.GetParams(ctx)
 
 	keeper.IterateCodeInfos(ctx, func(codeID uint64, info types.CodeInfo) bool {
+		// nolint
 		bytecode, err := keeper.GetByteCode(ctx, codeID)
 		if err != nil {
 			panic(err)
@@ -119,6 +120,7 @@ func ExportGenesis(ctx sdk.Context, keeper *Keeper) *types.GenesisState {
 		return false
 	})
 
+	// nolint
 	for _, k := range [][]byte{types.KeyLastCodeID, types.KeyLastInstanceID} {
 		genState.Sequences = append(genState.Sequences, types.Sequence{
 			IDKey: k,

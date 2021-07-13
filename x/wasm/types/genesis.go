@@ -1,6 +1,6 @@
 package types
 
-import "C"
+import "C" // nolint
 import (
 	sdk "github.com/line/lfb-sdk/types"
 	sdkerrors "github.com/line/lfb-sdk/types/errors"

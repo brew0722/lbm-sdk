@@ -8,16 +8,16 @@ require (
 	github.com/VictoriaMetrics/fastcache v1.5.8
 	github.com/armon/go-metrics v0.3.9
 	github.com/bgentry/speakeasy v0.1.0
-	github.com/btcsuite/btcd v0.21.0-beta
-	github.com/btcsuite/btcutil v1.0.2
-	github.com/confio/ics23/go v0.6.6
+	github.com/btcsuite/btcd v0.22.0-beta
+	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
+	github.com/confio/ics23/go v0.6.3
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/ledger-cosmos-go v0.11.1
 	github.com/dgraph-io/ristretto v0.0.3
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
 	github.com/dvsekhvalnov/jose2go v0.0.0-20200901110807-248326c1351b
 	github.com/enigmampc/btcutil v1.0.3-0.20200723161021-e2fb6adb2a25
-	github.com/go-kit/kit v0.10.0
+	github.com/go-kit/kit v0.11.0
 	github.com/gogo/gateway v1.1.0
 	github.com/gogo/protobuf v1.3.3
 	github.com/golang/mock v1.4.4
@@ -42,8 +42,8 @@ require (
 	github.com/onsi/gomega v1.11.0 // indirect
 	github.com/pelletier/go-toml v1.8.1 // indirect
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.10.0
-	github.com/prometheus/common v0.23.0
+	github.com/prometheus/client_golang v1.11.0
+	github.com/prometheus/common v0.26.0
 	github.com/rakyll/statik v0.1.7
 	github.com/regen-network/cosmos-proto v0.3.1
 	github.com/rs/zerolog v1.21.0
@@ -58,14 +58,10 @@ require (
 	github.com/tendermint/btcd v0.1.1
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15
 	github.com/tendermint/go-amino v0.16.0
-	github.com/tendermint/tm-db v0.6.4 // indirect
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4 // indirect
-	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
-	golang.org/x/text v0.3.5 // indirect
-	google.golang.org/genproto v0.0.0-20210114201628-6edceaf6022f
+	golang.org/x/crypto v0.0.0-20210314154223-e6e6c4f2bb5b
+	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c
 	google.golang.org/grpc v1.39.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/protobuf v1.27.1
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect

@@ -6,7 +6,11 @@ require (
 	github.com/99designs/keyring v1.1.6
 	github.com/DataDog/zstd v1.4.5 // indirect
 	github.com/VictoriaMetrics/fastcache v1.5.8
+<<<<<<< HEAD
 	github.com/armon/go-metrics v0.3.8
+=======
+	github.com/armon/go-metrics v0.3.9
+>>>>>>> 0f6216de75289b1aea731a1b5890fea290463fd5
 	github.com/bgentry/speakeasy v0.1.0
 	github.com/btcsuite/btcd v0.21.0-beta
 	github.com/btcsuite/btcutil v1.0.2
@@ -64,10 +68,9 @@ require (
 	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
 	golang.org/x/text v0.3.5 // indirect
 	google.golang.org/genproto v0.0.0-20210114201628-6edceaf6022f
-	google.golang.org/grpc v1.37.0
-	google.golang.org/protobuf v1.26.0
-	gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b // indirect
-	gopkg.in/ini.v1 v1.61.0 // indirect
+	google.golang.org/grpc v1.39.0
+	google.golang.org/protobuf v1.25.0
+	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )

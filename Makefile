@@ -335,7 +335,7 @@ benchmark:
 ###############################################################################
 
 lint: golangci-lint
-	CGO_ENABLED=1 golangci-lint run --out-format=tab
+	golangci-lint run --out-format=tab
 	find . -name '*.go' -type f -not -path "*.git*" | xargs gofmt -d -s
 
 golangci-lint:
